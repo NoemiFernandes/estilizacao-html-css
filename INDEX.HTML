@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Beauty Space</title>
+
+  <style>
+    /* Esse comp body define o estilo geral da página */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+    }
+
+    /* Esse comp header é o topo do site */
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Esse comp nav é o menu (Início, Produtos, Contato) */
+    nav {
+      background-color: #ffc0cb;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Esse comp nav a estiliza os links do menu */
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    /* Esse comp container organiza o conteúdo principal */
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Esse comp card cria as caixinhas dos produtos */
+    .card {
+      background-color: white;
+      margin: 15px auto;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* Esse comp button estiliza os botões */
+    button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Esse comp button:hover muda a cor quando passa o mouse */
+    button:hover {
+      background-color: #ff1493;
+    }
+
+    /* Esse comp footer é a parte de baixo do site */
+    footer {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Esse comp header mostra o título principal -->
+  <header>
+    <h1>Beauty Space 💄</h1>
+    <p>Dicas e inspirações de maquiagem</p>
+  </header>
+
+  <!-- Esse comp nav é o menu de navegação -->
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <!-- Esse comp container agrupa todo o conteúdo -->
+  <div class="container">
+    <h2>Produtos favoritos</h2>
+
+    <!-- Esse comp card representa um produto -->
+    <div class="card">
+      <h3>Batom Matte</h3>
+      <p>Longa duração e acabamento perfeito.</p>
+
+      <!-- Esse botão mostra um alerta ao clicar -->
+      <button onclick="alert('Produto adicionado!')">Comprar</button>
+    </div>
+
+    <!-- Outro card -->
+    <div class="card">
+      <h3>Base Líquida</h3>
+      <p>Cobertura natural para o dia a dia.</p>
+      <button onclick="alert('Produto adicionado!')">Comprar</button>
+    </div>
+
+    <!-- Outro card -->
+    <div class="card">
+      <h3>Paleta de Sombras</h3>
+      <p>Cores incríveis para qualquer ocasião.</p>
+      <button onclick="alert('Produto adicionado!')">Comprar</button>
+    </div>
+  </div>
+
+  <!-- Esse comp footer mostra o rodapé -->
+  <footer>
+    <p>© 2026 - Meu Portfólio</p>
+  </footer>
+
+</body>
+</html>
